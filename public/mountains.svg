@@ -1,0 +1,20 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0F19"/>
+      <stop offset="0.55" stop-color="#1A1440"/>
+      <stop offset="1" stop-color="#FF7E67" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="m1" x1="0" y1="500" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#221B52" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#0B0F19" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="m2" x1="0" y1="520" x2="1600" y2="900" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B1F66" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#0B0F19" stop-opacity="0.95"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <path d="M0 720L260 520L410 640L580 450L760 640L920 520L1080 640L1250 480L1460 650L1600 560V900H0V720Z" fill="url(#m2)"/>
+  <path d="M0 760L240 600L420 720L620 520L820 740L980 600L1160 720L1340 560L1600 700V900H0V760Z" fill="url(#m1)"/>
+</svg>

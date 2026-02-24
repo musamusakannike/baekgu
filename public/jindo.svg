@@ -1,0 +1,39 @@
+<svg width="900" height="650" viewBox="0 0 900 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="fur" x1="0" y1="0" x2="900" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.98"/>
+      <stop offset="1" stop-color="#DDE7FF" stop-opacity="0.92"/>
+    </linearGradient>
+    <linearGradient id="bandana" x1="240" y1="420" x2="620" y2="520" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF2D2D"/>
+      <stop offset="1" stop-color="#B80000"/>
+    </linearGradient>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <path d="M205 470C205 360 305 290 450 290C595 290 695 360 695 470C695 580 605 620 450 620C295 620 205 580 205 470Z" fill="url(#fur)"/>
+    <path d="M260 310C278 240 332 180 400 155C435 142 465 142 500 155C568 180 622 240 640 310C610 290 576 276 540 270C510 264 486 265 450 265C414 265 390 264 360 270C324 276 290 290 260 310Z" fill="url(#fur)"/>
+
+    <path d="M285 250C280 200 305 160 345 135C355 128 368 124 382 125C345 165 330 200 328 250C314 256 300 262 285 250Z" fill="url(#fur)"/>
+    <path d="M615 250C620 200 595 160 555 135C545 128 532 124 518 125C555 165 570 200 572 250C586 256 600 262 615 250Z" fill="url(#fur)"/>
+
+    <ellipse cx="380" cy="410" rx="24" ry="18" fill="#0B0F19" fill-opacity="0.8"/>
+    <ellipse cx="520" cy="410" rx="24" ry="18" fill="#0B0F19" fill-opacity="0.8"/>
+    <circle cx="372" cy="405" r="5" fill="#FFFFFF" fill-opacity="0.9"/>
+    <circle cx="512" cy="405" r="5" fill="#FFFFFF" fill-opacity="0.9"/>
+
+    <path d="M430 455C430 440 440 430 450 430C460 430 470 440 470 455C470 470 460 483 450 483C440 483 430 470 430 455Z" fill="#0B0F19" fill-opacity="0.85"/>
+    <path d="M410 510C420 485 438 475 450 475C462 475 480 485 490 510" stroke="#0B0F19" stroke-opacity="0.65" stroke-width="10" stroke-linecap="round"/>
+
+    <path d="M305 470C350 455 550 455 595 470" stroke="#0B0F19" stroke-opacity="0.12" stroke-width="22" stroke-linecap="round"/>
+
+    <path d="M295 470C350 510 390 535 450 535C510 535 550 510 605 470C588 520 542 565 450 565C358 565 312 520 295 470Z" fill="url(#bandana)"/>
+    <path d="M450 545L520 605L450 585L380 605L450 545Z" fill="url(#bandana)"/>
+  </g>
+
+  <defs>
+    <filter id="shadow" x="165" y="95" width="570" height="565" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000" flood-opacity="0.45"/>
+    </filter>
+  </defs>
+</svg>
